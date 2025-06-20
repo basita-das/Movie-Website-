@@ -1,0 +1,66 @@
+.login-form {
+  background-color: #cea4a4;
+  padding: 30px;
+  border: 5px solid #2C1B1B ;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 50px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.login-form button {
+  display: block; /* Makes margin auto work */
+  margin: 20px auto 0; /* top auto bottom */
+  max-width: 200px;    /* or any fixed width */
+  padding: 10px;
+  background-color: #d18585 ;
+  color: black;
+  font-weight: bold;
+  border: auto solid black;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.login-form button:hover {
+  background-color: #FFB400;
+}
+
+input::placeholder{
+    text-align: center;
+}
+.bg {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(bg.avif); /* replace with actual path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
