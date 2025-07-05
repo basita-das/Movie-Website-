@@ -16,7 +16,7 @@ A dynamic movie browsing platform powered by the TMDB API. Users can explore pop
 
 - 🔐 User login and authentication
 - 🎥 Browse trending and popular movies
-- ❤️ Save favorite movies to your personalized list
+- ❤️ Save favorite movies to your personalized list (stored in **Local Storage**)
 - 🚫 Unauthorized users cannot access the favorites page
 - 🌐 Real-time movie data using [TMDB API](https://www.themoviedb.org/documentation/api)
 
@@ -24,9 +24,10 @@ A dynamic movie browsing platform powered by the TMDB API. Users can explore pop
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript (React if used)
-- **Authentication**: (e.g., Firebase/Auth0/custom – _replace with yours_)
+- **Frontend**: HTML,CSS,JavaScript,React
 - **API**: TMDB (The Movie Database)
+- **Storage**: Local Storage for saving favorite movies
+
 
 ---
 
